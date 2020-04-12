@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+}
+.top-banner{
+    background-image: url("../website/resource/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.biography{
+    background-image: url("../website/resource/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ .latest-work{
+    background-image: url("../website/resource/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+} 
+section{
+    height: 700px;
+    padding-bottom: 0px;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    padding-left: 2px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.half-width img{
+    width: 70%;
+    margin-left: 10%;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    margin-top: 0%;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    color: dimgray;
+}
+.name-highlight{
+    color: orange;
+}
+.link-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: powderblue;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+}
+
+.work{
+    width: 30%;
+    float: left;
+    padding-left: 2px;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+.work img{
+    width: 70%;
+    margin-left: 10%;
+}
+.client{
+    background-image: url("../website/resource/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.box{
+    height: 140px;
+    width: 800px;
+    border: 1px solid crimson;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 2%;
+    background-image: linear-gradient(45deg, rgb(252, 74, 4), rgb(240, 50, 16)    );
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#text-center{
+    text-align: center;
+}
+#foot{
+    text-align: center;
+}
